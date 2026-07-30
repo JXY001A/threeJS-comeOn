@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    /* 语言与环境 */
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+
+    /* 类型检查 */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+
+    /* 模块解析 */
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
+    /* 输出 */
+    "outDir": "./dist",
+    "sourceMap": true
+  },
+  "include": ["核心概念（场景、相机、渲染器）/index.ts"],
+  "exclude": ["node_modules", "dist"]
+}
