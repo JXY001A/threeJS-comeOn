@@ -21,7 +21,7 @@ export function initScene(container: HTMLElement) {
     1000,
   );
   // 相机位置
-  camera.position.set(3, 2, 2);
+  camera.position.set(0, 0, 4);
   // 看向位置
   camera.lookAt(0, 0, 0);
 
@@ -40,7 +40,8 @@ export function initScene(container: HTMLElement) {
   //   color: 0x00ff00,
   // });
   const material = new THREE.MeshStandardMaterial({ 
-    color: 0xe74c3c,
+    // color: 0xe74c3c,
+    color: 0x3498db,
     // 光泽度
     roughness: 0.5,
     // 金属度
