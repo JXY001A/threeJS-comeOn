@@ -56,7 +56,7 @@ export function initScene(container: HTMLElement) {
   const ambientLight = new THREE.AmbientLight(0xffffff, 0.3); // 环境光：均匀照亮
   scene.add(ambientLight);
 
-  // 方向光：从一个方向照亮
+  // 方向光：从一个方向照亮，光源会改变物体的明暗，光源颜色不同也会影响物体的色彩
   const directionalLight = new THREE.DirectionalLight(0xffffff, 1);
   directionalLight.position.set(15, 0, 5);
   scene.add(directionalLight);
