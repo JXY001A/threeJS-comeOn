@@ -10,7 +10,8 @@ export default defineConfig({
     name: 'Three.js 学习',
     logo: false,
     nav: [
-      { title: '核心概念', link: '/core-concepts/scene-camera-renderer' }
+      { title: '核心概念', link: '/core-concepts/scene-camera-renderer' },
+      { title: '搭建城市一角', link: '/core-concepts/building-city-corner' }
     ],
   },
 });

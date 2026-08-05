@@ -21,3 +21,4 @@ features:
 ## 快速导航
 
 - [场景、相机、渲染器](/core-concepts/scene-camera-renderer) — Three.js 基础入门
+- [搭建城市一角](/core-concepts/building-city-corner) — 几何体组合与场景布局
