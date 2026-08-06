@@ -69,13 +69,14 @@ const createRoad = () => {
   const roadGeo = new THREE.PlaneGeometry(4,60);
   const roadMat = new THREE.MeshStandardMaterial({
     color: 0xffeedd,
-    // metalness: 0.5,
-    roughness: 0.95
+    metalness: 0.5,
+    roughness: 0.95,
+    side: THREE.DoubleSide,  // 正反面都渲染
   });
 
   const road = new THREE.Mesh(roadGeo, roadMat);
   road.rotation.x = -Math.PI / 2;
-  // road.rotation.z = -Math.PI/2;
+  // road.rotation.y = -Math.PI/2;
   road.position.set(-4, 0.005, 0);
   road.castShadow = true;
   road.receiveShadow=true;
@@ -175,7 +176,7 @@ export function initScene(container: HTMLElement) {
   scene.add(createBuilding(7, 5, 2.5, 2.5, 5, 0x2ecc71)); 
 
   // 添加路灯
-  scene.add(createStreetLight(-3, 5));
+  scene.add(createStreetLight(-8, 10));
   scene.add(createStreetLight(5, 5));
   scene.add(createRoad())
 
