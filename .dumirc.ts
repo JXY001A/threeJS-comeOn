@@ -11,7 +11,9 @@ export default defineConfig({
     logo: false,
     nav: [
       { title: '核心概念', link: '/core-concepts/scene-camera-renderer' },
-      { title: '搭建城市一角', link: '/core-concepts/building-city-corner' }
+      { title: '搭建城市一角', link: '/core-concepts/building-city-corner' },
+      { title: '相机与控制器的深度实验', link: '/core-concepts/camera-controller-experiment' },
+      { title: '建筑物体贴图', link: '/core-concepts/building-texture' }
     ],
   },
 });

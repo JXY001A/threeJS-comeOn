@@ -22,3 +22,5 @@ features:
 
 - [场景、相机、渲染器](/core-concepts/scene-camera-renderer) — Three.js 基础入门
 - [搭建城市一角](/core-concepts/building-city-corner) — 几何体组合与场景布局
+- [相机与控制器的深度实验](/core-concepts/camera-controller-experiment) — 相机与控制器
+- [建筑物体贴图](/core-concepts/building-texture) — 纹理贴图
